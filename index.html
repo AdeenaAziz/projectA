@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      background:
+        radial-gradient(circle at top left, #36d1dc, transparent 35%),
+        radial-gradient(circle at bottom right, #ff7a90, transparent 35%),
+        linear-gradient(135deg, #10131f, #171a2b);
+    }
+
+    .card {
+      text-align: center;
+      padding: 70px 90px;
+      border-radius: 28px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 30px 90px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(20px);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(4rem, 12vw, 8rem);
+      background: linear-gradient(90deg, #ffffff, #92f5ff, #ffd166);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello World</h1>
+    <p>A tiny page with a fancy little glow.</p>
+  </div>
+</body>
+</html>
